@@ -64,3 +64,15 @@ else
 Console.WriteLine("нет");
 }
 
+int N;
+
+Console.WriteLine("Input number N:  ");
+N = Convert.ToInt32(Console.ReadLine());
+
+int current = N / N + 1; 
+
+while ( current <= N )
+{
+    Console.Write(current + " ");
+    current = current + 2;
+}
